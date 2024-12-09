@@ -43,3 +43,8 @@ console.log(arr1)
 
 arr2.sort((a,b)=>a.localeCompare(b));
 console.log(arr2) // [ 'aryaman', 'êvil', 'piyush', 'vicky', 'vipul' ]
+
+
+const arr3 = ['vicky','vipul','aryaman'];
+arr3.sort((a,b)=>a.localeCompare(b));
+console.log(arr3) // [ 'aryaman', 'êvil', 'piyush', 'vicky', 'vipul' ]
